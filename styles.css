@@ -38,10 +38,10 @@ colors and do a find and replace to replace the hex codes.
 
 /*********** Colors ***********
 
-primary = #b5b5b5;
-secondary = #efefef;
-accent = #4574b5
-text default = #333333;
+primary = #3a31d8;
+secondary = #020024;
+accent = #0600c2
+text default = #ebe9fc;
 
 
 ********************************/
@@ -61,8 +61,8 @@ sizing and spacing as well.
 
 body {
 	font-family:Georgia;
-	color:#333;
-	background:#333;
+	color:#ebe9fc;
+	background:#010104;
 }
 
 /************* typography ************/
@@ -98,7 +98,7 @@ p {
 	margin-bottom:1em;
 }
 
-a { color: #4574b5; }
+a { color: #0600c2; }
 
 .social { font-size:175%; }
 
@@ -106,8 +106,8 @@ a { color: #4574b5; }
 
 /****************** Grid ******************/
 
-.primary { background:#b5b5b5; }
-.secondary { background:#efefef; }
+.primary { background:#3a31d8; }
+.secondary { background:#020024; }
 
 
 /****************** Header and Main Navigation ****************/
@@ -126,10 +126,16 @@ header .wrapper {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 #logo {
 	margin-right:20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 3px solid #ebe9fc;
 }
 
 
@@ -144,8 +150,8 @@ header .wrapper {
 
 #mainnav ul li a {
 	display:block;
-	color: #4574b5;
-	border-left: 2px solid #4574b5;
+	color: #ebe9fc;
+	border-left: 2px solid #ebe9fc;
 	padding:0 20px;
 	font-size:20px;
 }
@@ -162,7 +168,7 @@ Removes the border on the first link...
 /***************** Section Specific Rules *****************/
 
 #work {
-	background:#fff;
+	background:#020024;
 	padding: 20px;
 }
 
